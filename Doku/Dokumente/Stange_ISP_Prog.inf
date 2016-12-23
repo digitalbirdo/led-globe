@@ -1,0 +1,48 @@
+;
+; Windows USB CDC Driver 
+; DIAMEX ISP-Stange
+;
+
+[Version] 
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%DIAMEX%
+LayoutFile=layout.inf
+
+[Manufacturer] 
+%DIAMEX%=VirComDevice,NT,NTamd64
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[VirComDevice.NT]
+%DESCRIPTION%=DriverInstall,USB\VID_16C0&PID_2A9B
+
+[VirComDevice.NTamd64]
+%DESCRIPTION%=DriverInstall,USB\VID_16C0&PID_2A9B
+
+[DriverInstall.NT]
+Include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+AddReg=DriverInstall.NT.AddReg
+
+[DriverInstall.NT.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DriverInstall.NT.Services]
+AddService=usbser, 0x00000002, DriverServiceInst
+
+[DriverServiceInst]
+DisplayName=%SERVICE%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys 
+
+[Strings] 
+DIAMEX      = "Diamex"
+DESCRIPTION = "Diamex DX-ISP"
+SERVICE     = "USB Serial Emulation Driver"

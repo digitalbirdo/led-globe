@@ -1,0 +1,26 @@
+Tobias
+_________________
+- Worldmap rumdrehen
+- LEDs mit Heißkleber befestigen
+- Kabel beschriften
+- Netzteil “aufräumen”
+- zweiter Step-Down einbauen für Bluetooth-Modul
+
+
+
+Clemens
+_________________
+- Pong paddle nicht in der Mitte
+- Row in Column umbenennen
+- Scores anzeigen
+- defines bei allen C und H-Dateien setzen
+
+
+Beide
+_________________
+
+
+
+
+Zur Diskussion
+_________________

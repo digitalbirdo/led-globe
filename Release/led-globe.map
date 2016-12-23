@@ -1,0 +1,1122 @@
+Archive member included because of file (symbol)
+
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodqi4.o)
+                              ./Application/font.o (__udivmodqi4)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o)
+                              ./HAL-Target/display.o (__divmodhi4)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodsi4.o)
+                              ./Application/font.o (__udivmodsi4)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+                              ./HAL-Target/input.o (__do_copy_data)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+                              ./HAL-Target/debug.o (__do_clear_bss)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodhi4.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                              ./Application/modes/flappy.o (malloc)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+                              ./HAL-Target/display.o (rand)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+                              ./HAL-Target/debug.o (itoa)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o) (strrev)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_mulsi3.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o) (__mulsi3)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodsi4.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o) (__divmodsi4)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_prologue.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o) (__prologue_saves__)
+/usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_epilogue.o)
+                              /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+bird_y_position     0x1               ./Application/modes/flappy.o
+paddle_color        0x3               ./Application/modes/pong.o
+x_ball_next         0x1               ./Application/modes/pong.o
+num_modes           0x1               ./Application/modes/modes.o
+y_paddle            0x1               ./Application/modes/pong.o
+food_x              0x1               ./Application/modes/snake.o
+mov_snake_vec       0x1               ./Application/modes/snake.o
+mov_ball_vec        0x1               ./Application/modes/pong.o
+x_ball              0x1               ./Application/modes/pong.o
+__brkval            0x2               /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+y_ball              0x1               ./Application/modes/pong.o
+snake_score         0x2               ./Application/modes/snake.o
+next_generation     0x2               ./Application/modes/conway.o
+pong_num_frame      0x1               ./Application/modes/pong.o
+leds                0x90              ./Application/modes/modes.o
+head_x_next         0x1               ./Application/modes/snake.o
+obstacle_color      0x3               ./Application/modes/flappy.o
+buffer              0x7               ./HAL-Target/debug.o
+ov_fktn             0x2               ./HAL-Target/timer.o
+snake_color         0x3               ./Application/modes/snake.o
+ball_color          0x3               ./Application/modes/pong.o
+current_generation  0x2               ./Application/modes/conway.o
+food_color          0x3               ./Application/modes/snake.o
+buttonflags         0x5               ./HAL-Target/input.o
+border_color        0x3               ./Application/modes/pong.o
+bird_mov_vec        0x1               ./Application/modes/flappy.o
+gen0                0x240             ./Application/modes/conway.o
+ready_to_send       0x1               ./HAL-Target/timer.o
+gen1                0x240             ./Application/modes/conway.o
+snake_game_over     0x1               ./Application/modes/snake.o
+head_y_next         0x1               ./Application/modes/snake.o
+tmp_ptr_generation  0x2               ./Application/modes/conway.o
+__flp               0x2               /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+snake_num_frame     0x1               ./Application/modes/snake.o
+food_y              0x1               ./Application/modes/snake.o
+snake_length        0x1               ./Application/modes/snake.o
+y_ball_next         0x1               ./Application/modes/pong.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD ./HAL-Target/btm222.o
+LOAD ./HAL-Target/debug.o
+LOAD ./HAL-Target/display.o
+LOAD ./HAL-Target/input.o
+LOAD ./HAL-Target/reed_switch.o
+LOAD ./HAL-Target/sync.o
+LOAD ./HAL-Target/timer.o
+LOAD ./HAL-Target/uart.o
+LOAD ./HAL-Target/ws2803.o
+LOAD ./Application/modes/conway.o
+LOAD ./Application/modes/flappy.o
+LOAD ./Application/modes/modes.o
+LOAD ./Application/modes/pacman.o
+LOAD ./Application/modes/pacman_field.o
+LOAD ./Application/modes/pong.o
+LOAD ./Application/modes/snake.o
+LOAD ./Application/modes/text.o
+LOAD ./Application/modes/world.o
+LOAD ./Application/font.o
+LOAD ./Application/main.o
+LOAD ./Application/util.o
+LOAD /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a
+LOAD /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x4a66
+ *(.vectors)
+ .vectors       0x00000000       0x68 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000068       0xac ./HAL-Target/input.o
+ *(.progmem*)
+ .progmem.data  0x00000114      0x281 ./HAL-Target/input.o
+ .progmem.data  0x00000395      0x3c0 ./Application/modes/world.o
+                0x00000395                world_bmp
+                0x00000575                testpattern_bmp
+ .progmem.data  0x00000755      0x11d ./Application/font.o
+                0x00000755                FONT_WHITESPACE
+                0x00000758                FONT_EXCLAMATION_MARK
+                0x0000075b                FONT_QUOTATION_MARK
+                0x0000075e                FONT_HASH_KEY
+                0x00000761                FONT_DOLLAR
+                0x00000764                FONT_PERCENT
+                0x00000767                FONT_AMPERSAND
+                0x0000076a                FONT_INVERTED_COMMA
+                0x0000076d                FONT_ROUND_BRACKET_OPEN
+                0x00000770                FONT_ROUND_BRACKET_CLOSE
+                0x00000773                FONT_ASTERISK
+                0x00000776                FONT_PLUS_SIGN
+                0x00000779                FONT_COMMA
+                0x0000077c                FONT_MINUS_SIGN
+                0x0000077f                FONT_DOT
+                0x00000782                FONT_SLASH
+                0x00000785                FONT_O_NUMBER
+                0x00000788                FONT_ONE_NUMBER
+                0x0000078b                FONT_TWO_NUMBER
+                0x0000078e                FONT_THREE_NUMBER
+                0x00000791                FONT_FOUR_NUMBER
+                0x00000794                FONT_FIVE_NUMBER
+                0x00000797                FONT_SIX_NUMBER
+                0x0000079a                FONT_SEVEN_NUMBER
+                0x0000079d                FONT_EIGHT_NUMBER
+                0x000007a0                FONT_NINE_NUMBER
+                0x000007a3                FONT_COLON
+                0x000007a6                FONT_SEMICOLON
+                0x000007a9                FONT_LOWER_SIGN
+                0x000007ac                FONT_EQUALS_SIGN
+                0x000007af                FONT_GREATER_SIGN
+                0x000007b2                FONT_QUESTION_MARK
+                0x000007b5                FONT_AT_SIGN
+                0x000007b8                FONT_A_UPPER
+                0x000007bb                FONT_B_UPPER
+                0x000007be                FONT_C_UPPER
+                0x000007c1                FONT_D_UPPER
+                0x000007c4                FONT_E_UPPER
+                0x000007c7                FONT_F_UPPER
+                0x000007ca                FONT_G_UPPER
+                0x000007cd                FONT_H_UPPER
+                0x000007d0                FONT_I_UPPER
+                0x000007d3                FONT_J_UPPER
+                0x000007d6                FONT_K_UPPER
+                0x000007d9                FONT_L_UPPER
+                0x000007dc                FONT_M_UPPER
+                0x000007df                FONT_N_UPPER
+                0x000007e2                FONT_O_UPPER
+                0x000007e5                FONT_P_UPPER
+                0x000007e8                FONT_Q_UPPER
+                0x000007eb                FONT_R_UPPER
+                0x000007ee                FONT_S_UPPER
+                0x000007f1                FONT_T_UPPER
+                0x000007f4                FONT_U_UPPER
+                0x000007f7                FONT_V_UPPER
+                0x000007fa                FONT_W_UPPER
+                0x000007fd                FONT_X_UPPER
+                0x00000800                FONT_Y_UPPER
+                0x00000803                FONT_Z_UPPER
+                0x00000806                FONT_SQUARED_BRACKET_OPEN
+                0x00000809                FONT_BACKSLASH
+                0x0000080c                FONT_SQUARED_BRACKET_CLOSE
+                0x0000080f                FONT_CARET
+                0x00000812                FONT_UNDER_SCORE
+                0x00000815                FONT_GRAVE_ACCENT
+                0x00000818                FONT_A_LOWER
+                0x0000081b                FONT_B_LOWER
+                0x0000081e                FONT_C_LOWER
+                0x00000821                FONT_D_LOWER
+                0x00000824                FONT_E_LOWER
+                0x00000827                FONT_F_LOWER
+                0x0000082a                FONT_G_LOWER
+                0x0000082d                FONT_H_LOWER
+                0x00000830                FONT_I_LOWER
+                0x00000833                FONT_J_LOWER
+                0x00000836                FONT_K_LOWER
+                0x00000839                FONT_L_LOWER
+                0x0000083c                FONT_M_LOWER
+                0x0000083f                FONT_N_LOWER
+                0x00000842                FONT_O_LOWER
+                0x00000845                FONT_P_LOWER
+                0x00000848                FONT_Q_LOWER
+                0x0000084b                FONT_R_LOWER
+                0x0000084e                FONT_S_LOWER
+                0x00000851                FONT_T_LOWER
+                0x00000854                FONT_U_LOWER
+                0x00000857                FONT_V_LOWER
+                0x0000085a                FONT_W_LOWER
+                0x0000085d                FONT_X_LOWER
+                0x00000860                FONT_Y_LOWER
+                0x00000863                FONT_Z_LOWER
+                0x00000866                FONT_CURLY_BRACKET_OPEN
+                0x00000869                FONT_PIPE
+                0x0000086c                FONT_CURLY_BRACKET_CLOSE
+                0x0000086f                FONT_TILDE
+                0x00000872                . = ALIGN (0x2)
+                0x00000872                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000872        0x0 linker stubs
+ *(.trampolines*)
+                0x00000872                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000872                __ctors_start = .
+ *(.ctors)
+                0x00000872                __ctors_end = .
+                0x00000872                __dtors_start = .
+ *(.dtors)
+                0x00000872                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000872        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000872                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000872        0xc /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000087e       0x16 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+                0x0000087e                __do_copy_data
+ .init4         0x00000894       0x10 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+                0x00000894                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000008a4        0x8 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000008ac        0x4 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000008ac                __vector_20
+                0x000008ac                __vector_24
+                0x000008ac                __vector_12
+                0x000008ac                __bad_interrupt
+                0x000008ac                __vector_6
+                0x000008ac                __vector_3
+                0x000008ac                __vector_23
+                0x000008ac                __vector_25
+                0x000008ac                __vector_11
+                0x000008ac                __vector_17
+                0x000008ac                __vector_7
+                0x000008ac                __vector_5
+                0x000008ac                __vector_4
+                0x000008ac                __vector_9
+                0x000008ac                __vector_21
+                0x000008ac                __vector_15
+                0x000008ac                __vector_8
+                0x000008ac                __vector_14
+                0x000008ac                __vector_10
+                0x000008ac                __vector_16
+                0x000008ac                __vector_22
+ .text          0x000008b0        0x0 ./HAL-Target/btm222.o
+ .text          0x000008b0        0x0 ./HAL-Target/debug.o
+ .text          0x000008b0        0x0 ./HAL-Target/display.o
+ .text          0x000008b0        0x0 ./HAL-Target/input.o
+ .text          0x000008b0        0x0 ./HAL-Target/reed_switch.o
+ .text          0x000008b0        0x0 ./HAL-Target/sync.o
+ .text          0x000008b0        0x0 ./HAL-Target/timer.o
+ .text          0x000008b0        0x0 ./HAL-Target/uart.o
+ .text          0x000008b0        0x0 ./HAL-Target/ws2803.o
+ .text          0x000008b0        0x0 ./Application/modes/conway.o
+ .text          0x000008b0        0x0 ./Application/modes/flappy.o
+ .text          0x000008b0        0x0 ./Application/modes/modes.o
+ .text          0x000008b0        0x0 ./Application/modes/pacman.o
+ .text          0x000008b0        0x0 ./Application/modes/pacman_field.o
+ .text          0x000008b0        0x0 ./Application/modes/pong.o
+ .text          0x000008b0        0x0 ./Application/modes/snake.o
+ .text          0x000008b0        0x0 ./Application/modes/text.o
+ .text          0x000008b0        0x0 ./Application/modes/world.o
+ .text          0x000008b0        0x0 ./Application/font.o
+ .text          0x000008b0        0x0 ./Application/main.o
+ .text          0x000008b0        0x0 ./Application/util.o
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_mulsi3.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_prologue.o)
+ .text          0x000008b0        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_epilogue.o)
+                0x000008b0                . = ALIGN (0x2)
+ *(.text.*)
+ .text.btm222_init
+                0x000008b0       0x2e ./HAL-Target/btm222.o
+                0x000008b0                btm222_init
+ .text.debug_string
+                0x000008de        0x6 ./HAL-Target/debug.o
+                0x000008de                debug_string
+ .text.debug_int
+                0x000008e4       0x20 ./HAL-Target/debug.o
+                0x000008e4                debug_int
+ .text.display_init
+                0x00000904        0xa ./HAL-Target/display.o
+                0x00000904                display_init
+ .text.display_set_num_rows
+                0x0000090e        0x6 ./HAL-Target/display.o
+                0x0000090e                display_set_num_rows
+ .text.display_get_num_rows
+                0x00000914        0x6 ./HAL-Target/display.o
+                0x00000914                display_get_num_rows
+ .text.display_set_row
+                0x0000091a      0x10e ./HAL-Target/display.o
+                0x0000091a                display_set_row
+ .text.display_set_row_rgb
+                0x00000a28       0x3c ./HAL-Target/display.o
+                0x00000a28                display_set_row_rgb
+ .text.display_set_row_color
+                0x00000a64       0x70 ./HAL-Target/display.o
+                0x00000a64                display_set_row_color
+ .text.get_random_value
+                0x00000ad4       0x30 ./HAL-Target/display.o
+                0x00000ad4                get_random_value
+ .text.input_init
+                0x00000b04       0x56 ./HAL-Target/input.o
+                0x00000b04                input_init
+ .text.set_button_flag
+                0x00000b5a       0x14 ./HAL-Target/input.o
+                0x00000b5a                set_button_flag
+ .text.dec_antibeat_counters
+                0x00000b6e       0x88 ./HAL-Target/input.o
+                0x00000b6e                dec_antibeat_counters
+ .text.is_button_pressed
+                0x00000bf6       0x18 ./HAL-Target/input.o
+                0x00000bf6                is_button_pressed
+ .text.check_button_flags
+                0x00000c0e      0x11a ./HAL-Target/input.o
+                0x00000c0e                check_button_flags
+ .text.freeRam  0x00000d28       0x32 ./HAL-Target/input.o
+                0x00000d28                freeRam
+ .text.process_input
+                0x00000d5a      0x258 ./HAL-Target/input.o
+                0x00000d5a                process_input
+ .text.reed_switch_init
+                0x00000fb2       0x14 ./HAL-Target/reed_switch.o
+                0x00000fb2                reed_switch_init
+ .text.reed_is_active
+                0x00000fc6        0x8 ./HAL-Target/reed_switch.o
+                0x00000fc6                reed_is_active
+ .text.enable_reed_switch_interrupt
+                0x00000fce        0x8 ./HAL-Target/reed_switch.o
+                0x00000fce                enable_reed_switch_interrupt
+ .text.disable_reed_switch_interrupt
+                0x00000fd6        0x4 ./HAL-Target/reed_switch.o
+                0x00000fd6                disable_reed_switch_interrupt
+ .text.__vector_1
+                0x00000fda       0x22 ./HAL-Target/reed_switch.o
+                0x00000fda                __vector_1
+ .text.__vector_2
+                0x00000ffc       0x22 ./HAL-Target/reed_switch.o
+                0x00000ffc                __vector_2
+ .text.sync_init
+                0x0000101e       0x10 ./HAL-Target/sync.o
+                0x0000101e                sync_init
+ .text.enable_sync_interrupt
+                0x0000102e        0xc ./HAL-Target/sync.o
+                0x0000102e                enable_sync_interrupt
+ .text.disable_sync_interrupt
+                0x0000103a        0xa ./HAL-Target/sync.o
+                0x0000103a                disable_sync_interrupt
+ .text.sync_is_active
+                0x00001044        0x6 ./HAL-Target/sync.o
+                0x00001044                sync_is_active
+ .text.timer_init
+                0x0000104a        0x8 ./HAL-Target/timer.o
+                0x0000104a                timer_init
+ .text.timer_start_600us
+                0x00001052       0x1e ./HAL-Target/timer.o
+                0x00001052                timer_start_600us
+ .text.__vector_13
+                0x00001070       0x36 ./HAL-Target/timer.o
+                0x00001070                __vector_13
+ .text.__vector_18
+                0x000010a6       0x58 ./HAL-Target/uart.o
+                0x000010a6                __vector_18
+ .text.__vector_19
+                0x000010fe       0x54 ./HAL-Target/uart.o
+                0x000010fe                __vector_19
+ .text.uart_init
+                0x00001152       0x32 ./HAL-Target/uart.o
+                0x00001152                uart_init
+ .text.uart_getc
+                0x00001184       0x38 ./HAL-Target/uart.o
+                0x00001184                uart_getc
+ .text.uart_putc
+                0x000011bc       0x2a ./HAL-Target/uart.o
+                0x000011bc                uart_putc
+ .text.uart_puts
+                0x000011e6       0x3a ./HAL-Target/uart.o
+                0x000011e6                uart_puts
+ .text.uart_puts_p
+                0x00001220       0x3a ./HAL-Target/uart.o
+                0x00001220                uart_puts_p
+ .text.uart_available
+                0x0000125a       0x1a ./HAL-Target/uart.o
+                0x0000125a                uart_available
+ .text.uart_flush
+                0x00001274        0xa ./HAL-Target/uart.o
+                0x00001274                uart_flush
+ .text.ws2803_init
+                0x0000127e       0x12 ./HAL-Target/ws2803.o
+                0x0000127e                ws2803_init
+ .text.ws2803_send
+                0x00001290        0xc ./HAL-Target/ws2803.o
+                0x00001290                ws2803_send
+ .text.reset_cgol
+                0x0000129c        0x6 ./Application/modes/conway.o
+                0x0000129c                reset_cgol
+ .text.init_cgol
+                0x000012a2      0x14a ./Application/modes/conway.o
+                0x000012a2                init_cgol
+ .text.get_bit  0x000013ec       0x3a ./Application/modes/conway.o
+                0x000013ec                get_bit
+ .text.set_bit  0x00001426       0x30 ./Application/modes/conway.o
+                0x00001426                set_bit
+ .text.clear_bit
+                0x00001456       0x32 ./Application/modes/conway.o
+                0x00001456                clear_bit
+ .text.check_pixel
+                0x00001488      0x1d4 ./Application/modes/conway.o
+                0x00001488                check_pixel
+ .text.mode_game_of_life
+                0x0000165c      0x1ea ./Application/modes/conway.o
+                0x0000165c                mode_game_of_life
+ .text.move_bird
+                0x00001846       0x7e ./Application/modes/flappy.o
+                0x00001846                move_bird
+ .text.is_bird_hitting_obstacle
+                0x000018c4       0x42 ./Application/modes/flappy.o
+                0x000018c4                is_bird_hitting_obstacle
+ .text.create_obstacle
+                0x00001906       0x36 ./Application/modes/flappy.o
+                0x00001906                create_obstacle
+ .text.delete_obstacles
+                0x0000193c       0xf8 ./Application/modes/flappy.o
+                0x0000193c                delete_obstacles
+ .text.flappy_init
+                0x00001a34       0xb8 ./Application/modes/flappy.o
+                0x00001a34                flappy_init
+ .text.move_obstacles
+                0x00001aec       0xf6 ./Application/modes/flappy.o
+                0x00001aec                move_obstacles
+ .text.display_bird
+                0x00001be2       0xde ./Application/modes/flappy.o
+                0x00001be2                display_bird
+ .text.display_flappy
+                0x00001cc0      0x240 ./Application/modes/flappy.o
+                0x00001cc0                display_flappy
+ .text.mode_flappy
+                0x00001f00      0x18a ./Application/modes/flappy.o
+                0x00001f00                mode_flappy
+ .text.display_obstacles
+                0x0000208a      0x13c ./Application/modes/flappy.o
+                0x0000208a                display_obstacles
+ .text.display_obstacle
+                0x000021c6      0x104 ./Application/modes/flappy.o
+                0x000021c6                display_obstacle
+ .text.flappy_get_score
+                0x000022ca        0xa ./Application/modes/flappy.o
+                0x000022ca                flappy_get_score
+ .text.mode_rain
+                0x000022d4        0x2 ./Application/modes/modes.o
+                0x000022d4                mode_rain
+ .text.mode_stripes
+                0x000022d6       0x46 ./Application/modes/modes.o
+                0x000022d6                mode_stripes
+ .text.mode_rgb_fade
+                0x0000231c       0x7c ./Application/modes/modes.o
+                0x0000231c                mode_rgb_fade
+ .text.mode_manual
+                0x00002398       0x2a ./Application/modes/modes.o
+                0x00002398                mode_manual
+ .text.mode_test
+                0x000023c2       0x4a ./Application/modes/modes.o
+                0x000023c2                mode_test
+ .text.mode_select_mode
+                0x0000240c      0x188 ./Application/modes/modes.o
+                0x0000240c                mode_select_mode
+ .text.modes_init
+                0x00002594       0x32 ./Application/modes/modes.o
+                0x00002594                modes_init
+ .text.mode_execute
+                0x000025c6       0x4e ./Application/modes/modes.o
+                0x000025c6                mode_execute
+ .text.mode_set
+                0x00002614       0x1a ./Application/modes/modes.o
+                0x00002614                mode_set
+ .text.pong_init
+                0x0000262e       0xae ./Application/modes/pong.o
+                0x0000262e                pong_init
+ .text.pong_get_score
+                0x000026dc        0xa ./Application/modes/pong.o
+                0x000026dc                pong_get_score
+ .text.move_ball
+                0x000026e6      0x31a ./Application/modes/pong.o
+                0x000026e6                move_ball
+ .text.mode_pong
+                0x00002a00      0x328 ./Application/modes/pong.o
+                0x00002a00                mode_pong
+ .text.is_ball_hitting_paddle
+                0x00002d28       0x76 ./Application/modes/pong.o
+                0x00002d28                is_ball_hitting_paddle
+ .text.move_paddle
+                0x00002d9e       0x50 ./Application/modes/pong.o
+                0x00002d9e                move_paddle
+ .text.display_pong
+                0x00002dee      0x122 ./Application/modes/pong.o
+                0x00002dee                display_pong
+ .text.snake_get_score
+                0x00002f10        0xa ./Application/modes/snake.o
+                0x00002f10                snake_get_score
+ .text.move_snake
+                0x00002f1a      0x2dc ./Application/modes/snake.o
+                0x00002f1a                move_snake
+ .text.is_snake_hitting_itself
+                0x000031f6       0x2e ./Application/modes/snake.o
+                0x000031f6                is_snake_hitting_itself
+ .text.change_snake_movement
+                0x00003224       0x6a ./Application/modes/snake.o
+                0x00003224                change_snake_movement
+ .text.create_snake_tail_bit
+                0x0000328e       0x2e ./Application/modes/snake.o
+                0x0000328e                create_snake_tail_bit
+ .text.create_food
+                0x000032bc       0x78 ./Application/modes/snake.o
+                0x000032bc                create_food
+ .text.delete_snake
+                0x00003334       0xf8 ./Application/modes/snake.o
+                0x00003334                delete_snake
+ .text.create_snake
+                0x0000342c       0xce ./Application/modes/snake.o
+                0x0000342c                create_snake
+ .text.snake_init
+                0x000034fa      0x1e4 ./Application/modes/snake.o
+                0x000034fa                snake_init
+ .text.mode_snake
+                0x000036de      0x1cc ./Application/modes/snake.o
+                0x000036de                mode_snake
+ .text.display_snake
+                0x000038aa      0x118 ./Application/modes/snake.o
+                0x000038aa                display_snake
+ .text.mode_text
+                0x000039c2       0x5c ./Application/modes/text.o
+                0x000039c2                mode_text
+ .text.mode_world_map
+                0x00003a1e       0x7c ./Application/modes/world.o
+                0x00003a1e                mode_world_map
+ .text.get_bmp_bit
+                0x00003a9a       0x38 ./Application/modes/world.o
+                0x00003a9a                get_bmp_bit
+ .text.get_byte_from_character
+                0x00003ad2        0xa ./Application/font.o
+                0x00003ad2                get_byte_from_character
+ .text.get_char_matrix
+                0x00003adc       0x24 ./Application/font.o
+                0x00003adc                get_char_matrix
+ .text.display_char
+                0x00003b00      0x190 ./Application/font.o
+                0x00003b00                display_char
+ .text.write_char_to_led
+                0x00003c90      0x1e4 ./Application/font.o
+                0x00003c90                write_char_to_led
+ .text.write_str_to_led
+                0x00003e74      0x2fa ./Application/font.o
+                0x00003e74                write_str_to_led
+ .text.write_int_to_led
+                0x0000416e      0x162 ./Application/font.o
+                0x0000416e                write_int_to_led
+ .text.main     0x000042d0       0x78 ./Application/main.o
+                0x000042d0                main
+ .text.get_color
+                0x00004348       0xdc ./Application/util.o
+                0x00004348                get_color
+ .text.hsv_to_rgb
+                0x00004424      0x142 ./Application/util.o
+                0x00004424                hsv_to_rgb
+ .text.libgcc   0x00004566       0x18 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodqi4.o)
+                0x00004566                __udivmodqi4
+ .text.libgcc   0x0000457e       0x26 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o)
+                0x0000457e                __divmodhi4
+                0x0000457e                _div
+ .text.libgcc   0x000045a4       0x44 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x000045a4                __udivmodsi4
+ .text.libgcc   0x000045e8        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x000045e8        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x000045e8        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000045e8       0x28 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodhi4.o)
+                0x000045e8                __udivmodhi4
+ .text.avr-libc
+                0x00004610      0x266 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x00004610                malloc
+                0x00004744                free
+ .text.avr-libc
+                0x00004876       0xa8 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+                0x000048f8                rand_r
+                0x000048fe                rand
+                0x00004908                srand
+ .text.avr-libc
+                0x0000491e       0x42 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+                0x0000491e                itoa
+ .text.avr-libc
+                0x00004960       0x20 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                0x00004960                strrev
+ .text.libgcc   0x00004980       0x3e /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_mulsi3.o)
+                0x00004980                __mulsi3
+ .text.libgcc   0x000049be       0x36 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodsi4.o)
+                0x000049be                __divmodsi4
+ .text.libgcc   0x000049f4       0x38 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_prologue.o)
+                0x000049f4                __prologue_saves__
+ .text.libgcc   0x00004a2c       0x36 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_epilogue.o)
+                0x00004a2c                __epilogue_restores__
+                0x00004a62                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00004a62        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+                0x00004a62                exit
+                0x00004a62                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00004a62        0x4 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00004a66                _etext = .
+
+.data           0x00800100      0x152 load address 0x00004a66
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 ./HAL-Target/btm222.o
+ .data          0x00800100        0x0 ./HAL-Target/debug.o
+ .data          0x00800100        0x0 ./HAL-Target/display.o
+ .data          0x00800100        0x0 ./HAL-Target/input.o
+ .data          0x00800100        0x0 ./HAL-Target/reed_switch.o
+ .data          0x00800100        0x0 ./HAL-Target/sync.o
+ .data          0x00800100        0x0 ./HAL-Target/timer.o
+ .data          0x00800100        0x0 ./HAL-Target/uart.o
+ .data          0x00800100        0x0 ./HAL-Target/ws2803.o
+ .data          0x00800100        0x0 ./Application/modes/conway.o
+ .data          0x00800100        0x0 ./Application/modes/flappy.o
+ .data          0x00800100       0x4b ./Application/modes/modes.o
+ .data          0x0080014b        0x0 ./Application/modes/pacman.o
+ .data          0x0080014b        0x0 ./Application/modes/pacman_field.o
+ .data          0x0080014b        0x0 ./Application/modes/pong.o
+ .data          0x0080014b        0x0 ./Application/modes/snake.o
+ .data          0x0080014b        0xc ./Application/modes/text.o
+ .data          0x00800157        0x0 ./Application/modes/world.o
+ .data          0x00800157        0x0 ./Application/font.o
+ .data          0x00800157        0x0 ./Application/main.o
+ .data          0x00800157        0x0 ./Application/util.o
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800157        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x00800157        0x6 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x00800157                __malloc_margin
+                0x00800159                __malloc_heap_start
+                0x0080015b                __malloc_heap_end
+ .data          0x0080015d        0x4 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_mulsi3.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_prologue.o)
+ .data          0x00800161        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_epilogue.o)
+ *(.data*)
+ .data.ov       0x00800161        0x2 ./HAL-Target/input.o
+                0x00800161                ov
+ .data.sync_interrupt_enabled
+                0x00800163        0x1 ./HAL-Target/sync.o
+                0x00800163                sync_interrupt_enabled
+ .data.current_mode
+                0x00800164        0x2 ./Application/modes/modes.o
+                0x00800164                current_mode
+ .data.selected_mode
+                0x00800166        0x1 ./Application/modes/modes.o
+                0x00800166                selected_mode
+ .data.modes_look_up_table
+                0x00800167       0x16 ./Application/modes/modes.o
+                0x00800167                modes_look_up_table
+ .data.modes_names_look_up_table
+                0x0080017d       0x16 ./Application/modes/modes.o
+                0x0080017d                modes_names_look_up_table
+ .data.pong_game_over
+                0x00800193        0x1 ./Application/modes/pong.o
+                0x00800193                pong_game_over
+ .data.CHARACTERS_LOOK_UP_TABLE
+                0x00800194       0xbe ./Application/font.o
+                0x00800194                CHARACTERS_LOOK_UP_TABLE
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800252                . = ALIGN (0x2)
+                0x00800252                _edata = .
+                0x00800252                PROVIDE (__data_end, .)
+
+.bss            0x00800252      0x5cc
+                0x00800252                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800252        0x0 ./HAL-Target/btm222.o
+ .bss           0x00800252        0x0 ./HAL-Target/debug.o
+ .bss           0x00800252        0x0 ./HAL-Target/display.o
+ .bss           0x00800252        0x0 ./HAL-Target/input.o
+ .bss           0x00800252        0x0 ./HAL-Target/reed_switch.o
+ .bss           0x00800252        0x0 ./HAL-Target/sync.o
+ .bss           0x00800252        0x0 ./HAL-Target/timer.o
+ .bss           0x00800252        0x0 ./HAL-Target/uart.o
+ .bss           0x00800252        0x0 ./HAL-Target/ws2803.o
+ .bss           0x00800252        0x0 ./Application/modes/conway.o
+ .bss           0x00800252        0x0 ./Application/modes/flappy.o
+ .bss           0x00800252        0x0 ./Application/modes/modes.o
+ .bss           0x00800252        0x0 ./Application/modes/pacman.o
+ .bss           0x00800252        0x0 ./Application/modes/pacman_field.o
+ .bss           0x00800252        0x0 ./Application/modes/pong.o
+ .bss           0x00800252        0x0 ./Application/modes/snake.o
+ .bss           0x00800252        0x0 ./Application/modes/text.o
+ .bss           0x00800252        0x0 ./Application/modes/world.o
+ .bss           0x00800252        0x0 ./Application/font.o
+ .bss           0x00800252        0x0 ./Application/main.o
+ .bss           0x00800252        0x0 ./Application/util.o
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_exit.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_prologue.o)
+ .bss           0x00800252        0x0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/avr5/libgcc.a(_epilogue.o)
+ *(.bss*)
+ .bss.num_rows  0x00800252        0x1 ./HAL-Target/display.o
+                0x00800252                num_rows
+ .bss.current_row
+                0x00800253        0x1 ./HAL-Target/display.o
+                0x00800253                current_row
+ .bss.sync_interrupt_flag
+                0x00800254        0x1 ./HAL-Target/sync.o
+                0x00800254                sync_interrupt_flag
+ .bss.UART_RxTail
+                0x00800255        0x1 ./HAL-Target/uart.o
+ .bss.UART_RxHead
+                0x00800256        0x1 ./HAL-Target/uart.o
+ .bss.UART_TxHead
+                0x00800257        0x1 ./HAL-Target/uart.o
+ .bss.UART_TxTail
+                0x00800258        0x1 ./HAL-Target/uart.o
+ .bss.UART_TxBuf
+                0x00800259       0x20 ./HAL-Target/uart.o
+ .bss.UART_RxBuf
+                0x00800279       0x40 ./HAL-Target/uart.o
+ .bss.UART_LastRxError
+                0x008002b9        0x1 ./HAL-Target/uart.o
+ .bss.initialised
+                0x008002ba        0x1 ./Application/modes/conway.o
+                0x008002ba                initialised
+ .bss.num_checks
+                0x008002bb        0x4 ./Application/modes/conway.o
+                0x008002bb                num_checks
+ .bss.debouncer
+                0x008002bf        0x1 ./Application/modes/conway.o
+                0x008002bf                debouncer
+ .bss.flappy_num_frame
+                0x008002c0        0x1 ./Application/modes/flappy.o
+                0x008002c0                flappy_num_frame
+ .bss.gamestate
+                0x008002c1        0x1 ./Application/modes/flappy.o
+                0x008002c1                gamestate
+ .bss.flappy_score
+                0x008002c2        0x2 ./Application/modes/flappy.o
+                0x008002c2                flappy_score
+ .bss.first_obstacle
+                0x008002c4        0x2 ./Application/modes/flappy.o
+                0x008002c4                first_obstacle
+ .bss.manual_color
+                0x008002c6        0x3 ./Application/modes/modes.o
+                0x008002c6                manual_color
+ .bss.color_offset
+                0x008002c9        0x1 ./Application/modes/modes.o
+                0x008002c9                color_offset
+ .bss.x.1832    0x008002ca        0x1 ./Application/modes/modes.o
+ .bss.pong_score
+                0x008002cb        0x2 ./Application/modes/pong.o
+                0x008002cb                pong_score
+ .bss.head      0x008002cd        0x2 ./Application/modes/snake.o
+                0x008002cd                head
+ *(COMMON)
+ COMMON         0x008002cf        0x7 ./HAL-Target/debug.o
+                0x008002cf                buffer
+ COMMON         0x008002d6        0x5 ./HAL-Target/input.o
+                0x008002d6                buttonflags
+ COMMON         0x008002db        0x3 ./HAL-Target/timer.o
+                0x008002db                ov_fktn
+                0x008002dd                ready_to_send
+ COMMON         0x008002de      0x486 ./Application/modes/conway.o
+                0x008002de                next_generation
+                0x008002e0                current_generation
+                0x008002e2                gen0
+                0x00800522                gen1
+                0x00800762                tmp_ptr_generation
+ COMMON         0x00800764        0x5 ./Application/modes/flappy.o
+                0x00800764                bird_y_position
+                0x00800765                obstacle_color
+                0x00800768                bird_mov_vec
+ COMMON         0x00800769       0x91 ./Application/modes/modes.o
+                0x00800769                num_modes
+                0x0080076a                leds
+ COMMON         0x008007fa       0x10 ./Application/modes/pong.o
+                0x008007fa                paddle_color
+                0x008007fd                x_ball_next
+                0x008007fe                y_paddle
+                0x008007ff                mov_ball_vec
+                0x00800800                x_ball
+                0x00800801                y_ball
+                0x00800802                pong_num_frame
+                0x00800803                ball_color
+                0x00800806                border_color
+                0x00800809                y_ball_next
+ COMMON         0x0080080a       0x10 ./Application/modes/snake.o
+                0x0080080a                food_x
+                0x0080080b                mov_snake_vec
+                0x0080080c                snake_score
+                0x0080080e                head_x_next
+                0x0080080f                snake_color
+                0x00800812                food_color
+                0x00800815                snake_game_over
+                0x00800816                head_y_next
+                0x00800817                snake_num_frame
+                0x00800818                food_y
+                0x00800819                snake_length
+ COMMON         0x0080081a        0x4 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0080081a                __brkval
+                0x0080081c                __flp
+                0x0080081e                PROVIDE (__bss_end, .)
+                0x00004a66                __data_load_start = LOADADDR (.data)
+                0x00004bb8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080081e        0x0
+                0x0080081e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080081e                PROVIDE (__noinit_end, .)
+                0x0080081e                _end = .
+                0x0080081e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x954
+ *(.stab)
+ .stab          0x00000000      0x6cc /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .stab          0x000006cc      0x1b0 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(itoa.o)
+                                0x1bc (size before relaxing)
+ .stab          0x0000087c       0xd8 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(strrev.o)
+                                 0xe4 (size before relaxing)
+
+.stabstr        0x00000000      0x13b
+ *(.stabstr)
+ .stabstr       0x00000000      0x13b /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_aranges
+                0x00000028       0x38 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_pubnames
+                0x00000000       0xaf
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x7f /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_pubnames
+                0x0000007f       0x30 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_info     0x00000000      0x3be
+ *(.debug_info)
+ .debug_info    0x00000000      0x29a /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_info    0x0000029a      0x124 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x1c6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xf7 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_abbrev  0x000000f7       0xcf /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_line     0x00000000      0x465
+ *(.debug_line)
+ .debug_line    0x00000000      0x348 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_line    0x00000348      0x11d /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_frame    0x00000000       0x80
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_frame   0x00000030       0x50 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_str      0x00000000      0x194
+ *(.debug_str)
+ .debug_str     0x00000000      0x159 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+                                0x192 (size before relaxing)
+ .debug_str     0x00000159       0x3b /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+                                 0xd0 (size before relaxing)
+
+.debug_loc      0x00000000      0x566
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x429 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_loc     0x00000429      0x13d /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(led-globe.elf elf32-avr)
+LOAD linker stubs
+
+.debug_pubtypes
+                0x00000000       0x4b
+ .debug_pubtypes
+                0x00000000       0x39 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_pubtypes
+                0x00000039       0x12 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)
+
+.debug_ranges   0x00000000       0x40
+ .debug_ranges  0x00000000       0x18 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(malloc.o)
+ .debug_ranges  0x00000018       0x28 /usr/local/CrossPack-AVR-20120217/lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/libc.a(rand.o)

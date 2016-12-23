@@ -1,0 +1,41 @@
+/**
+\mainpage  \htmlonly <img src="../images/Hochschule-esslingen.png" style="max-width:800px;"> </br></br><b> Studienarbeit: Led-Globe</b></br><h5>Clemens Weißenberg</br>Tobias Finke</h5>\endhtmlonly
+
+
+
+\tableofcontents
+
+\section sec_links Verwendete Libraries
+- [UART library von Peter Fleury](http://homepage.hispeed.ch/peterfleury/uartlibrary.zip)
+
+\section sec_bericht Bericht
+[Download PDF](../../Bericht/Studienarbeit.pdf)
+\htmlonly	
+<object data="../../Bericht/Studienarbeit.pdf" type="application/pdf" width="100%" height="80%">
+  <p>It appears you don't have a PDF plugin for this browser.No biggie... you can 
+  <a href="../../Bericht/Studienarbeit.pdf">click here to download the PDF file.</a></p>
+</object>
+\endhtmlonly
+
+
+# mega #
+
+## nich ganz so mega ##
+
+### klein ###
+
+\section sec_id Kategorie
+	- normale Aufzähling
+	- [Linkname](http://link)
+	1. nummerierte Liste
+	2. Code-Schnipsel: `int void main()`
+
+
+
+\subsection sub_sec_id Unterkategorie
+	bla
+
+*/
+
+
+

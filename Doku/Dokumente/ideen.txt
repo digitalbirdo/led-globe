@@ -1,0 +1,39 @@
+
+Ideen
+
+Spiele:
+———————————
+(mit Highscore im EEPROM)
+
+Pong
+https://www.youtube.com/watch?v=ll1dovm3FiE
+
+Snake
+
+
+Algorythmen:
+————————————
+Conway Game of Life
+Zahlen/Buchstaben Darstellung
+siehe hier: https://www.youtube.com/watch?v=Q7BnNd866O8
+
+
+Animationen:
+————————————
+
+Schrift:
+————————————
+
+Merkliste:
+————————————
+HSV- Algorithmus zum umwandeln von 24-bit—RGB in 8-Bit
+http://www.mikrocontroller.net/topic/54561 (Beitrag von Benedikt K.)
+http://www.mikrocontroller.net/attachment/highlight/18560
+
+
+
+Merkliste:
+- led-array mit enums
+- conway game of life kleines fester
+- Audio-Visualisierung (FastFurierTransformation (FFT) auf dem AVR laufen lassen 0__0
+  http://www.mikrocontroller.net/topic/131525#1191497
